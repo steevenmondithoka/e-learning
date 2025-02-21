@@ -15,6 +15,10 @@ import AddCourse from './pages/educator/AddCourse'
 import MyCourses from './pages/educator/MyCourses'
 import StudentsEnrolled from './pages/educator/StudentsEnrolled'
 import Navbar from './components/student/Navbar'
+import AboutUs from './components/student/AboutUs'
+import ContactUs from './components/student/ContactUs'
+import PrivacyPolicy from './components/student/PrivacyPolicy'
+import Footer from './components/student/Footer'
 
 
 
@@ -26,6 +30,9 @@ const App = () => {
       
       <Routes>
         <Route path='/' element={<Home/>}/>  
+        <Route path='/about' element={<AboutUs/>}/>
+        <Route path='/contact' element={<ContactUs/>}/>
+        <Route path='/privacy' element={<PrivacyPolicy/>}/>
         <Route path='/course-list' element={<CoursesList/>}/>
         <Route path='/course-list/:input' element={<CoursesList/>}/>
         <Route path='/course/:id' element={<CourseDetails/>}/>
@@ -39,6 +46,7 @@ const App = () => {
           <Route path='student-enrolled' element={<StudentsEnrolled/>}/>
         </Route>
       </Routes>  
+      
     </div>
   )
 }

@@ -22,7 +22,7 @@ const SearchBar = ({data}) => {
             px-3' />
             <input onChange={e=>setInput(e.target.value)} value={input} 
             type="text" placeholder='Search for Courses' className='w-full h-full outline-none text-gray-500/80' />
-            <button type='submit' className='bg-blue-600 rounded text-wrap md:px-10 px-7 md:py-3 py-2 mx-1'>Search</button>
+            <button type='submit' className='bg-blue-500 rounded text-wrap md:px-10 px-7 md:py-3 py-2 mx-1 hover:bg-blue-700 text-white'>Search</button>
         </form>
 
     
