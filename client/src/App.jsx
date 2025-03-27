@@ -20,7 +20,7 @@ import ContactUs from './components/student/ContactUs'
 import PrivacyPolicy from './components/student/PrivacyPolicy'
 import Footer from './components/student/Footer'
 
-
+import "quill/dist/quill.snow.css";
 
 const App = () => {
   const isEducatorRoute = useMatch('/educator/*')
