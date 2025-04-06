@@ -17,7 +17,7 @@ try {
         case 'user.created':{
             const userData ={
                 _id:data.id,
-                email:data.email_address[0].email_adress,
+                email:data.email_addresses[0].email_adress,
                 name:data.first_name+" "+data.last_name,
                 imageUrl:data.image_url,
             }
