@@ -17,7 +17,7 @@ const StudentsEnrolled = () => {
     md:pb-0 p-4 pt-8 pb-0'>
         <div className='flex flex-col items-center max-w-4xl w-full overflow-hidden
         rounded-md bg-white border border-gray-500/20'>
-          <table className='table-fixed md:table-auto w-full overflow-hidden pb-4'>
+          <table className='table-fixed md:table-auto w-full overflow-x-auto pb-4'>
             <thead className='text-gray-900 border-b border-gray-500/20 text-sm text-left'>
             <tr>
               <th className='px-4 py-3 font-semibold text-center hidden sm:table-cell'>S.NO</th>
