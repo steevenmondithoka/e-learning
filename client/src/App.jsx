@@ -22,10 +22,14 @@ import Footer from './components/student/Footer'
 
 import "quill/dist/quill.snow.css";
 
+import { ToastContainer } from 'react-toastify';
+
 const App = () => {
   const isEducatorRoute = useMatch('/educator/*')
+
   return (
     <div className='text-default min-h-screen bg-white'>
+      <ToastContainer/>
       {!isEducatorRoute&&<Navbar/>}
       
       <Routes>
